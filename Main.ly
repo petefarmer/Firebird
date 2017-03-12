@@ -1,7 +1,11 @@
 % Firebird
 \version "2.18.0"
+\include "definitions_No-Tab.ly"
 \include "IntroRhythmGuitar.ly"
+\include "IntroLeadGuitar.ly"
 \include "SectionARhythmGuitar.ly"
+\include "SectionALeadGuitar.ly"
+\include "SectionBLeadGuitar.ly"
 \include "SectionBRhythmGuitar.ly"
 \include "SectionCRhythmGuitar.ly"
 \include "CodaRhythmGuitar.ly"
@@ -23,22 +27,31 @@
 \score {
 %\unfoldRepeats
 \new StaffGroup <<
- \new Staff {
-  \set Staff.instrumentName = #"Guitar" 
+  \new Staff \with {
+   instrumentName = \markup {\column {"Lead" \line {"Guitar"}}}
+   \clef "treble_8"
+  }{
+   \IntroLeadGuitar
+   \SectionALeadGuitar
+   \SectionBLeadGuitar
+  }
+
+ \new Staff \with {
+  instrumentName = \markup {\column {"Rhythm" \line {"Guitar"}}}
   \clef "treble_8"
-  \time 3/4 
   \key a \minor
+  }{
+  \time 3/4 
   \tempo 4 = 100
    \IntroRhythmGuitar
    \SectionARhythmGuitar
    \SectionBRhythmGuitar
-   \SectionARhythmGuitar
-   \SectionCRhythmGuitar
-   \SectionBRhythmGuitar
-   \SectionARhythmGuitar
-   \SectionCRhythmGuitar
-   \CodaRhythmGuitar
-
+%   \SectionARhythmGuitar
+%   \SectionCRhythmGuitar
+%   \SectionBRhythmGuitar
+%   \SectionARhythmGuitar
+%   \SectionCRhythmGuitar
+%   \CodaRhythmGuitar
   } % Staff (Guitar)
   \new Staff {
    \set Staff.instrumentName = #"Bass" 
@@ -46,12 +59,12 @@
    \IntroBass
    \SectionABass
    \SectionBBass
-   \SectionABass
-   \SectionCBass
-   \SectionBBass
-   \SectionABass
-   \SectionCBass
-   \CodaBass
+%   \SectionABass
+%   \SectionCBass
+%   \SectionBBass
+%   \SectionABass
+%   \SectionCBass
+%   \CodaBass
   }
 
  >> % StaffGroup
