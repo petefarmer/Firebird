@@ -5,6 +5,7 @@
 \include "IntroLeadGuitar.ly"
 \include "SectionARhythmGuitar.ly"
 \include "SectionALeadGuitar.ly"
+\include "SectionAALeadGuitar.ly"
 \include "SectionBLeadGuitar.ly"
 \include "SectionBRhythmGuitar.ly"
 \include "SectionCRhythmGuitar.ly"
@@ -34,6 +35,7 @@
    \IntroLeadGuitar
    \SectionALeadGuitar
    \SectionBLeadGuitar
+   \SectionAALeadGuitar
   }
 
  \new Staff \with {
@@ -41,12 +43,13 @@
   \clef "treble_8"
   \key a \minor
   }{
+%  \time 3/4 
   \time 3/4 
   \tempo 4 = 100
    \IntroRhythmGuitar
    \SectionARhythmGuitar
    \SectionBRhythmGuitar
-%   \SectionARhythmGuitar
+   \SectionARhythmGuitar
 %   \SectionCRhythmGuitar
 %   \SectionBRhythmGuitar
 %   \SectionARhythmGuitar
@@ -59,7 +62,7 @@
    \IntroBass
    \SectionABass
    \SectionBBass
-%   \SectionABass
+   \SectionABass
 %   \SectionCBass
 %   \SectionBBass
 %   \SectionABass

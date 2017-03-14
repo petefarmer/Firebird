@@ -1,6 +1,6 @@
 SectionBLeadGuitar = {
 \bendOn
-\bendGrace c'8 (d'2) d'8 d'
+\bendGrace c'8 ^\markup {\box B " "} (d'2) d'8 d'
 d'4 (c'8) r 8 r4
 \grace {bes8 a} bes2 ~ bes4-\bendAfter #4 
 \grace {g8 a bes} bes4 a g
@@ -17,6 +17,6 @@ d''4 (c''2)
 g'2. ~
 g'2 g'4 \glissando
 a'2. ~
-a'2.
+a'2 a'8 a' \glissando
 \bendOff
 }
