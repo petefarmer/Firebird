@@ -45,7 +45,7 @@
        \clef "treble_8"
   \tempo 4 = 100
   \key a \minor
- 
+    
    \IntroLeadGuitar
    \SectionALeadGuitar
    \SectionBLeadGuitar

@@ -22,8 +22,8 @@ a'2 \tuplet 3/2 {a'8[ ( \preBendRelease  \bendOff \slurUp g'8  ) (f'8)] }
 d'2 c'4
 
 \grace {\tuplet 3/4 {c'16 d' c'}} a2 a8 a
-a4 c'4 \bendOn \bendGrace d'8 (e'4) 
-\preBendRelease \bendGrace e'8 (d'2.) ~
+a4 c'4 \bendOn \bendGrace d'8 ^(e'4) 
+\preBendRelease \bendGrace e'8 ^(d'2.) ~
 \bendOff
 d'2.
 }
