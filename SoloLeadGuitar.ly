@@ -18,6 +18,16 @@ c'2 \grace g8 \glissando a16 c' a g
  (fis'2) r8 c''8
  a'8 \trill f'8 c'8 gis16 a c' f' a' c''
  e''4. f''8 g''4
- a''2 d''8 a''8
- d''8 a''8 d''8 a''8 d''8 a''8
+ a''2 d''16 a''8.
+ \bendOn
+ d''16 a''8. d''16 a''8. d''16 a''8.
+ (c'''2) c'''4
+ (a''2) \bendOff r8 a''16 g''
+ fis''8 a''8 \tuplet 3/2 {fis''16 a'' fis''} d'' a' fis' e' \tuplet 3/2 {fis' a' d''} 
+ fis''16 g'' gis'' a'' r4. a''8
+ \grace {f'' a''} f''8 c''8 f'' a''  \grace {f'' a''} f''8 g''8
+ \grace {e'' g''} e''8 c'' \tuplet 3/2 {g' e'  g'}  \tuplet 3/2 {c'' e'' g''}
+ d''4. b'16 d''  a' b' g' a' 
+ d'2.
+
 }

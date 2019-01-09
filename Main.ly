@@ -23,7 +23,7 @@
  \header {
   title = "Firebird"
   subtitle = "DRAFT"
-  subsubtitle = "v0.2.1"
+  subsubtitle = "v0.2.2"
   composer = "John Jorgenson"
   copyright = \markup { \char ##x00A9 Copyright Jorgensongs 2014 }
  }
@@ -45,7 +45,7 @@
        \clef "treble_8"
   \tempo 4 = 100
   \key a \minor
-    
+      
    \IntroLeadGuitar
    \SectionALeadGuitar
    \SectionBLeadGuitar
