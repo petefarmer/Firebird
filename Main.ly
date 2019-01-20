@@ -44,14 +44,11 @@
   }{
        \clef "treble_8"
   \tempo 4 = 100
-  \key a \minor
-      
-   \IntroLeadGuitar
+  \key a \minor  
+    \IntroLeadGuitar
    \SectionALeadGuitar
    \SectionBLeadGuitar
-   \SectionAALeadGuitar
-   
-  
+   \SectionAALeadGuitar     
    \SoloLeadGuitar
   
   }
@@ -71,7 +68,7 @@
   % \SectionCRhythmGuitar
    %\CodaRhythmGuitar
   } % Staff (Guitar)
-  
+   
   
   \new Staff \with {
    instrumentName = \markup {"Bass"} 
