@@ -1,5 +1,5 @@
 \version "2.19.82"
-SectionCRhythmChords = {
+SectionCChordNames = {
  \chordmode {
  \set noChordSymbol = ##f
 % \grace s8

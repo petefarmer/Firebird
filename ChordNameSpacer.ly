@@ -1,3 +1,3 @@
 ChordNameSpacer = {
-\repeat unfold 64 {s2.}
+\repeat unfold 15 {s2.}
 }

@@ -3,13 +3,17 @@
 \include "definitions_No-Tab.ly"
 \include "IntroRhythmGuitar.ly"
 \include "IntroLeadGuitar.ly"
+\include "IntroRhythmChords.ly"
 \include "SectionARhythmGuitar.ly"
 \include "SectionALeadGuitar.ly"
 \include "SectionAALeadGuitar.ly"
+\include "SectionBChordNames.ly"
 \include "SectionBLeadGuitar.ly"
 \include "SectionBRhythmGuitar.ly"
 \include "SectionCRhythmGuitar.ly"
-\include "SectionCRhythmChords.ly"
+\include "SectionCChordNames.ly"
+\include "ChordNameSpacerIntro.ly"
+\include "ChordNameSpacerA.ly"
 \include "ChordNameSpacer.ly"
 \include "CodaRhythmGuitar.ly"
 \include "IntroBass.ly"
@@ -35,8 +39,14 @@
   
     \new ChordNames {
      \override ChordName #'font-size = #-1
-     \ChordNameSpacer
-     \SectionCRhythmChords
+%     \IntroRhythmChords
+    \ChordNameSpacerIntro
+    \ChordNameSpacerA
+    \SectionBChordNames
+     \ChordNameSpacerA
+
+ %    \ChordNameSpacer
+     \SectionCChordNames
    } 
   
   \new Staff \with {
