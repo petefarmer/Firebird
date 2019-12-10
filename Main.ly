@@ -7,8 +7,10 @@
 \include "SectionARhythmGuitar.ly"
 \include "SectionALeadGuitar.ly"
 \include "SectionAALeadGuitar.ly"
+\include "SectionAChordNames.ly"
 \include "SectionBChordNames.ly"
 \include "SectionBLeadGuitar.ly"
+\include "SectionBBLeadGuitar.ly"
 \include "SectionBRhythmGuitar.ly"
 \include "SectionCRhythmGuitar.ly"
 \include "SectionCChordNames.ly"
@@ -27,7 +29,7 @@
  \header {
   title = "Firebird"
   subtitle = "DRAFT"
-  subsubtitle = "v0.2.2"
+  subsubtitle = "v0.2.3"
   composer = "John Jorgenson"
   copyright = \markup { \char ##x00A9 Copyright Jorgensongs 2014 }
  }
@@ -41,12 +43,14 @@
      \override ChordName #'font-size = #-1
 %     \IntroRhythmChords
     \ChordNameSpacerIntro
-    \ChordNameSpacerA
+ %   \ChordNameSpacerA
+    \SectionAChordNames
     \SectionBChordNames
-     \ChordNameSpacerA
-
+  %  \ChordNameSpacerA
+    \SectionAChordNames
  %    \ChordNameSpacer
      \SectionCChordNames
+     \SectionBChordNames
    } 
   
   \new Staff \with {
@@ -60,7 +64,8 @@
    \SectionBLeadGuitar
    \SectionAALeadGuitar     
    \SoloLeadGuitar
-  
+   \SectionBBLeadGuitar
+
   }
         
 \new Staff \with {
