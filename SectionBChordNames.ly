@@ -4,7 +4,7 @@ SectionBChordNames = {
  \set noChordSymbol = ##f
  bes2.
  s2.
- g2.
+ g2.:m
  s2.
  d2.
  s2.
@@ -12,7 +12,7 @@ SectionBChordNames = {
  s2.
  bes2.
  s2.
- g2.
+ g2.:m
  s2.
  d2.
  s2.
