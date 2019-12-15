@@ -18,6 +18,7 @@
 \include "ChordNameSpacerA.ly"
 \include "ChordNameSpacer.ly"
 \include "CodaRhythmGuitar.ly"
+\include "CodaChordNames.ly"
 \include "IntroBass.ly"
 \include "SectionABass.ly"
 \include "SectionBBass.ly"
@@ -43,14 +44,15 @@
      \override ChordName #'font-size = #-1
 %     \IntroRhythmChords
     \ChordNameSpacerIntro
- %   \ChordNameSpacerA
     \SectionAChordNames
     \SectionBChordNames
-  %  \ChordNameSpacerA
     \SectionAChordNames
- %    \ChordNameSpacer
      \SectionCChordNames
      \SectionBChordNames
+    \SectionAChordNames
+    \SectionCChordNames
+    \CodaChordNames
+
    } 
   
   \new Staff \with {
@@ -66,7 +68,7 @@
    \SoloLeadGuitar
    \SectionBBLeadGuitar
 
-  }
+  }         
         
 \new Staff \with {
   instrumentName = \markup {\column {"Rhythm" \line {"Guitar"}}}
@@ -77,11 +79,11 @@
    \SectionARhythmGuitar
   \SectionBRhythmGuitar
   \SectionARhythmGuitar
-%    \SectionCRhythmGuitar
-%   \SectionBRhythmGuitar
-  % \SectionARhythmGuitar
-  % \SectionCRhythmGuitar
-   %\CodaRhythmGuitar
+  \SectionCRhythmGuitar
+  \SectionBRhythmGuitar
+  \SectionARhythmGuitar
+  \SectionCRhythmGuitar
+  \CodaRhythmGuitar
   } % Staff (Guitar)
    
   
