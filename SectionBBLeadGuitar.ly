@@ -8,7 +8,13 @@ d'8 (c'8) \staccato  r2
 a8 fis ~ fis2
  
 r4 fis8 f e d16 ees 
-e16 f fis8    f8  e16 d  ees e f fis
+
+
+
+
+\override TextSpanner.bound-details.left.text =
+  \markup { \upright "accel." }
+e16 \startTextSpan fis8    f8  e16 d  ees e f fis \stopTextSpan
 
 a8 d'8:32 \glissando c''4:16 \bendGrace c''4 (d''4) ~ 
 d''2 d''8 f''8
