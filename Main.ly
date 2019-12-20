@@ -7,10 +7,12 @@
 \include "SectionARhythmGuitar.ly"
 \include "SectionALeadGuitar.ly"
 \include "SectionAALeadGuitar.ly"
+\include "SectionAAALeadGuitar.ly"
 \include "SectionAChordNames.ly"
 \include "SectionBChordNames.ly"
 \include "SectionBLeadGuitar.ly"
 \include "SectionBBLeadGuitar.ly"
+\include "SectionBBBLeadGuitar.ly"
 \include "SectionBRhythmGuitar.ly"
 \include "SectionCRhythmGuitar.ly"
 \include "SectionCChordNames.ly"
@@ -25,7 +27,7 @@
 \include "SectionCBass.ly"
 \include "CodaBass.ly"
 \include "SoloLeadGuitar.ly"
-
+ 
 \book {
  \header {
   title = "Firebird"
@@ -67,6 +69,8 @@
    \SectionAALeadGuitar     
    \SoloLeadGuitar
    \SectionBBLeadGuitar
+   \SectionAAALeadGuitar
+   \SectionBBBLeadGuitar
 
   }         
         

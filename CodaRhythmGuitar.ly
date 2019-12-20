@@ -6,6 +6,6 @@ CodaRhythmGuitar = {
 <d a d' fis'>2. ~
 <d a d' fis'>2. ~
 <d a d' fis'>2. ~
-\bar "||"
+\bar "|."
 
 }
